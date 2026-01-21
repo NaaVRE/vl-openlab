@@ -6,11 +6,11 @@
     },
     "scale": 0.796,
     "nodes": {
-      "db31a307-0685-40c5-ae74-3148d16d6aba": {
-        "id": "db31a307-0685-40c5-ae74-3148d16d6aba",
+      "df035210-c011-4335-b465-529970b09dd2": {
+        "id": "df035210-c011-4335-b465-529970b09dd2",
         "position": {
-          "x": 43.238366587056106,
-          "y": 73.80704441041347
+          "x": 65.64070351758804,
+          "y": 294.1331658291458
         },
         "orientation": 0,
         "type": "workflow-cell",
@@ -30,15 +30,12 @@
         },
         "properties": {
           "cell": {
-            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/bbdd6f30-f7a5-4ddd-96f2-57f46d015188/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/7a162db7-b77d-4d53-9167-56742c99e199/",
             "owner": "koen.greuell@lifewatch.eu",
             "virtual_lab": "openlab",
             "shared_with_scopes": [],
             "shared_with_users": [],
-            "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.46",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.46"
-            },
+            "base_container_image": null,
             "dependencies": [],
             "inputs": [],
             "outputs": [
@@ -58,89 +55,13 @@
             "secrets": [],
             "title": "data-explorer-koen-greuell-lifewatch-eu",
             "description": "data-explorer-koen-greuell-lifewatch-eu",
-            "created": "2026-01-19T09:09:38.052307Z",
-            "modified": "2026-01-19T09:09:38.239735Z",
-            "version": 1,
-            "container_image": "ghcr.io/naavre/cells-vl-openlab/data-explorer-koen-greuell-lifewatch-eu:6cccca6",
-            "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/0c28001427b1d26bc76cf87c0fc79c3dbc4751c2/data-explorer-koen-greuell-lifewatch-eu",
-            "next_version": null
-          }
-        },
-        "size": {
-          "width": 252,
-          "height": 61
-        }
-      },
-      "cbee091c-8616-4a6b-9f46-dcd6db6d7edb": {
-        "id": "cbee091c-8616-4a6b-9f46-dcd6db6d7edb",
-        "position": {
-          "x": 859.2827770005325,
-          "y": 251.89892802450217
-        },
-        "orientation": 0,
-        "type": "workflow-cell",
-        "ports": {
-          "preprocessed_data": {
-            "id": "preprocessed_data",
-            "type": "left",
-            "properties": {
-              "color": "#2dd267",
-              "parentNodeType": "workflow-cell"
-            },
-            "position": {
-              "x": -2,
-              "y": 30
-            }
-          },
-          "model_output": {
-            "id": "model_output",
-            "type": "right",
-            "properties": {
-              "color": "#2d8686",
-              "parentNodeType": "workflow-cell"
-            },
-            "position": {
-              "x": 252,
-              "y": 30
-            }
-          }
-        },
-        "properties": {
-          "cell": {
-            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/b82e32f3-5d1b-4052-9816-0d6defdce5bc/",
-            "owner": "koen.greuell@lifewatch.eu",
-            "virtual_lab": "openlab",
-            "shared_with_scopes": [],
-            "shared_with_users": [],
-            "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.46",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.46"
-            },
-            "dependencies": [],
-            "inputs": [
-              {
-                "name": "preprocessed_data",
-                "type": "str"
-              }
-            ],
-            "outputs": [
-              {
-                "name": "model_output",
-                "type": "str"
-              }
-            ],
-            "confs": [],
-            "params": [],
-            "secrets": [],
-            "title": "model-runner-koen-greuell-lifewatch-eu",
-            "description": "model-runner-koen-greuell-lifewatch-eu",
-            "created": "2026-01-19T09:09:46.516726Z",
-            "modified": "2026-01-19T09:09:46.688743Z",
+            "created": "2026-01-21T15:23:05.432177Z",
+            "modified": "2026-01-21T15:23:05.770480Z",
             "version": 2,
-            "container_image": "ghcr.io/naavre/cells-vl-openlab/model-runner-koen-greuell-lifewatch-eu:fb54a1f",
+            "container_image": null,
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/16adda88fb2ee97bfedc691d29dc1a0953d432a0/model-runner-koen-greuell-lifewatch-eu",
+            "source_url": "",
+            "is_draft": true,
             "next_version": null
           }
         },
@@ -149,99 +70,11 @@
           "height": 61
         }
       },
-      "c52fa2d8-a866-42d1-bd72-4656ba2b50a9": {
-        "id": "c52fa2d8-a866-42d1-bd72-4656ba2b50a9",
+      "7cd7e952-ca7d-49cf-8e54-af696f1348cc": {
+        "id": "7cd7e952-ca7d-49cf-8e54-af696f1348cc",
         "position": {
-          "x": 585.1418887922632,
-          "y": 186.33843797856042
-        },
-        "orientation": 0,
-        "type": "workflow-cell",
-        "ports": {
-          "input_data": {
-            "id": "input_data",
-            "type": "left",
-            "properties": {
-              "color": "#6c90e0",
-              "parentNodeType": "workflow-cell"
-            },
-            "position": {
-              "x": -2,
-              "y": 30
-            }
-          },
-          "filtered_data": {
-            "id": "filtered_data",
-            "type": "right",
-            "properties": {
-              "color": "#9ae06c",
-              "parentNodeType": "workflow-cell"
-            },
-            "position": {
-              "x": 252,
-              "y": 30
-            }
-          }
-        },
-        "properties": {
-          "cell": {
-            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/b1bf7bd0-f703-4af7-aeb5-5647c7ec7b31/",
-            "owner": "koen.greuell@lifewatch.eu",
-            "virtual_lab": "openlab",
-            "shared_with_scopes": [],
-            "shared_with_users": [],
-            "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.46",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.46"
-            },
-            "dependencies": [],
-            "inputs": [
-              {
-                "name": "input_data",
-                "type": "str"
-              }
-            ],
-            "outputs": [
-              {
-                "name": "filtered_data",
-                "type": "str"
-              }
-            ],
-            "confs": [],
-            "params": [
-              {
-                "name": "param_years_end",
-                "type": "int",
-                "default_value": "2100"
-              },
-              {
-                "name": "param_years_start",
-                "type": "int",
-                "default_value": "1870"
-              }
-            ],
-            "secrets": [],
-            "title": "data-filter-koen-greuell-lifewatch-eu",
-            "description": "data-filter-koen-greuell-lifewatch-eu",
-            "created": "2026-01-19T09:10:09.420378Z",
-            "modified": "2026-01-19T09:10:09.693608Z",
-            "version": 1,
-            "container_image": "ghcr.io/naavre/cells-vl-openlab/data-filter-koen-greuell-lifewatch-eu:495c5f8",
-            "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/08e6bd5a7c8f257b581f0fbb1381985a32fb259e/data-filter-koen-greuell-lifewatch-eu",
-            "next_version": null
-          }
-        },
-        "size": {
-          "width": 252,
-          "height": 61
-        }
-      },
-      "0b3c6aff-7d3b-440c-a1ef-7a5290345a51": {
-        "id": "0b3c6aff-7d3b-440c-a1ef-7a5290345a51",
-        "position": {
-          "x": 316.33025020114496,
-          "y": 136.52679938744242
+          "x": 363.37939698492454,
+          "y": 383.32914572864325
         },
         "orientation": 0,
         "type": "workflow-cell",
@@ -273,15 +106,12 @@
         },
         "properties": {
           "cell": {
-            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/b5efbfd4-d0b5-42b7-8a26-92b59539749f/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/ecf5b56f-77b2-4653-b1eb-1c528bafd87e/",
             "owner": "koen.greuell@lifewatch.eu",
             "virtual_lab": "openlab",
             "shared_with_scopes": [],
             "shared_with_users": [],
-            "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.46",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.46"
-            },
+            "base_container_image": null,
             "dependencies": [],
             "inputs": [
               {
@@ -306,12 +136,13 @@
             "secrets": [],
             "title": "data-retriever-koen-greuell-lifewatch-eu",
             "description": "data-retriever-koen-greuell-lifewatch-eu",
-            "created": "2026-01-19T09:10:12.627170Z",
-            "modified": "2026-01-19T09:10:12.900987Z",
-            "version": 2,
-            "container_image": "ghcr.io/naavre/cells-vl-openlab/data-retriever-koen-greuell-lifewatch-eu:5e0d461",
+            "created": "2026-01-21T15:23:17.306585Z",
+            "modified": "2026-01-21T15:23:17.500156Z",
+            "version": 3,
+            "container_image": null,
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/032822b7b1a692005f765c694110cec8d8badf03/data-retriever-koen-greuell-lifewatch-eu",
+            "source_url": "",
+            "is_draft": true,
             "next_version": null
           }
         },
@@ -320,11 +151,172 @@
           "height": 61
         }
       },
-      "2fec44f9-0c0b-4e07-8e9a-48e53b1bd4f5": {
-        "id": "2fec44f9-0c0b-4e07-8e9a-48e53b1bd4f5",
+      "d9a7822d-f185-4122-83ee-68301a861e9b": {
+        "id": "d9a7822d-f185-4122-83ee-68301a861e9b",
         "position": {
-          "x": 1140.3700664339165,
-          "y": 313.3675344563554
+          "x": 657.3492462311557,
+          "y": 448.65577889447223
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "input_data": {
+            "id": "input_data",
+            "type": "left",
+            "properties": {
+              "color": "#6c90e0",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 30
+            }
+          },
+          "filtered_data": {
+            "id": "filtered_data",
+            "type": "right",
+            "properties": {
+              "color": "#9ae06c",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/83d1f51f-4e73-45ba-8824-14512f2d9d47/",
+            "owner": "koen.greuell@lifewatch.eu",
+            "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "base_container_image": null,
+            "dependencies": [],
+            "inputs": [
+              {
+                "name": "input_data",
+                "type": "str"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "filtered_data",
+                "type": "str"
+              }
+            ],
+            "confs": [],
+            "params": [
+              {
+                "name": "param_years_end",
+                "type": "int",
+                "default_value": "2100"
+              },
+              {
+                "name": "param_years_start",
+                "type": "int",
+                "default_value": "1870"
+              }
+            ],
+            "secrets": [],
+            "title": "data-filter-koen-greuell-lifewatch-eu",
+            "description": "data-filter-koen-greuell-lifewatch-eu",
+            "created": "2026-01-21T15:23:25.117326Z",
+            "modified": "2026-01-21T15:23:25.278649Z",
+            "version": 2,
+            "container_image": null,
+            "kernel": "ipython",
+            "source_url": "",
+            "is_draft": true,
+            "next_version": null
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "2246e461-826c-43c0-9c8d-3d09e112fc32": {
+        "id": "2246e461-826c-43c0-9c8d-3d09e112fc32",
+        "position": {
+          "x": 963.8819095477385,
+          "y": 513.9824120603013
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "preprocessed_data": {
+            "id": "preprocessed_data",
+            "type": "left",
+            "properties": {
+              "color": "#2dd267",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 30
+            }
+          },
+          "model_output": {
+            "id": "model_output",
+            "type": "right",
+            "properties": {
+              "color": "#2d8686",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/08868f2b-d6a5-4dd5-a0c4-f81781620242/",
+            "owner": "koen.greuell@lifewatch.eu",
+            "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "base_container_image": null,
+            "dependencies": [],
+            "inputs": [
+              {
+                "name": "preprocessed_data",
+                "type": "str"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "model_output",
+                "type": "str"
+              }
+            ],
+            "confs": [],
+            "params": [],
+            "secrets": [],
+            "title": "model-runner-koen-greuell-lifewatch-eu",
+            "description": "model-runner-koen-greuell-lifewatch-eu",
+            "created": "2026-01-21T15:23:35.940194Z",
+            "modified": "2026-01-21T15:23:36.172101Z",
+            "version": 3,
+            "container_image": null,
+            "kernel": "ipython",
+            "source_url": "",
+            "is_draft": true,
+            "next_version": null
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "0d20b8dc-81b0-4b94-b71b-32063168fc9c": {
+        "id": "0d20b8dc-81b0-4b94-b71b-32063168fc9c",
+        "position": {
+          "x": 1271.6708542713563,
+          "y": 560.4648241206029
         },
         "orientation": 0,
         "type": "workflow-cell",
@@ -344,15 +336,12 @@
         },
         "properties": {
           "cell": {
-            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/1c61ccdf-88ed-4c5f-bb62-3822488a4497/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/71189106-cb10-4325-9b3a-067e4c70ff11/",
             "owner": "koen.greuell@lifewatch.eu",
             "virtual_lab": "openlab",
             "shared_with_scopes": [],
             "shared_with_users": [],
-            "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.46",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.46"
-            },
+            "base_container_image": null,
             "dependencies": [],
             "inputs": [
               {
@@ -366,12 +355,13 @@
             "secrets": [],
             "title": "data-storer-koen-greuell-lifewatch-eu",
             "description": "data-storer-koen-greuell-lifewatch-eu",
-            "created": "2026-01-19T09:14:49.583959Z",
-            "modified": "2026-01-19T09:14:49.698857Z",
-            "version": 1,
-            "container_image": "ghcr.io/naavre/cells-vl-openlab/data-storer-koen-greuell-lifewatch-eu:dd0a0d4",
+            "created": "2026-01-21T15:23:42.994349Z",
+            "modified": "2026-01-21T15:23:43.144243Z",
+            "version": 2,
+            "container_image": null,
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/0bf5b21a6fbe4241b3ca6af75070dd8895e96b2f/data-storer-koen-greuell-lifewatch-eu",
+            "source_url": "",
+            "is_draft": true,
             "next_version": null
           }
         },
@@ -382,47 +372,47 @@
       }
     },
     "links": {
-      "2164a01b-3dec-457c-8c6d-de1cabec2275": {
-        "id": "2164a01b-3dec-457c-8c6d-de1cabec2275",
+      "f52559a8-a620-4138-b1fc-d999bcacb620": {
+        "id": "f52559a8-a620-4138-b1fc-d999bcacb620",
         "from": {
-          "nodeId": "db31a307-0685-40c5-ae74-3148d16d6aba",
+          "nodeId": "df035210-c011-4335-b465-529970b09dd2",
           "portId": "datafiles_to_retrieve"
         },
         "to": {
-          "nodeId": "0b3c6aff-7d3b-440c-a1ef-7a5290345a51",
+          "nodeId": "7cd7e952-ca7d-49cf-8e54-af696f1348cc",
           "portId": "datafiles_to_retrieve"
         }
       },
-      "ff90921d-d794-4e6f-b8d2-b398ec3bbc44": {
-        "id": "ff90921d-d794-4e6f-b8d2-b398ec3bbc44",
+      "9314c116-d123-4a2f-994c-56e7c268928e": {
+        "id": "9314c116-d123-4a2f-994c-56e7c268928e",
         "from": {
-          "nodeId": "0b3c6aff-7d3b-440c-a1ef-7a5290345a51",
+          "nodeId": "7cd7e952-ca7d-49cf-8e54-af696f1348cc",
           "portId": "retrieved_datafiles"
         },
         "to": {
-          "nodeId": "c52fa2d8-a866-42d1-bd72-4656ba2b50a9",
+          "nodeId": "d9a7822d-f185-4122-83ee-68301a861e9b",
           "portId": "input_data"
         }
       },
-      "09261cdd-2472-421b-97fe-fe1a8f80bc6b": {
-        "id": "09261cdd-2472-421b-97fe-fe1a8f80bc6b",
+      "f40492c1-4cd7-4c59-8b41-a7b7d4e06a59": {
+        "id": "f40492c1-4cd7-4c59-8b41-a7b7d4e06a59",
         "from": {
-          "nodeId": "c52fa2d8-a866-42d1-bd72-4656ba2b50a9",
+          "nodeId": "d9a7822d-f185-4122-83ee-68301a861e9b",
           "portId": "filtered_data"
         },
         "to": {
-          "nodeId": "cbee091c-8616-4a6b-9f46-dcd6db6d7edb",
+          "nodeId": "2246e461-826c-43c0-9c8d-3d09e112fc32",
           "portId": "preprocessed_data"
         }
       },
-      "06dc291c-03fb-47a8-bac1-99c6cca39ddc": {
-        "id": "06dc291c-03fb-47a8-bac1-99c6cca39ddc",
+      "5f094849-bb02-42f9-a2d2-f24959d0dfab": {
+        "id": "5f094849-bb02-42f9-a2d2-f24959d0dfab",
         "from": {
-          "nodeId": "cbee091c-8616-4a6b-9f46-dcd6db6d7edb",
+          "nodeId": "2246e461-826c-43c0-9c8d-3d09e112fc32",
           "portId": "model_output"
         },
         "to": {
-          "nodeId": "2fec44f9-0c0b-4e07-8e9a-48e53b1bd4f5",
+          "nodeId": "0d20b8dc-81b0-4b94-b71b-32063168fc9c",
           "portId": "output_data"
         }
       }
