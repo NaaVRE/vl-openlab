@@ -6,8 +6,8 @@
     },
     "scale": 0.629,
     "nodes": {
-      "1ba824e1-42ad-404a-8d70-ff5d31108ea4": {
-        "id": "1ba824e1-42ad-404a-8d70-ff5d31108ea4",
+      "f54e127d-2cbb-4c9f-8b9d-f647f1e7e082": {
+        "id": "f54e127d-2cbb-4c9f-8b9d-f647f1e7e082",
         "position": {
           "x": 552.1462833180146,
           "y": 623.9904610492846
@@ -30,12 +30,20 @@
         },
         "properties": {
           "cell": {
-            "url": "https://new.demo.naavre.net/naavre-catalogue-service/workflow-cells/ed2def86-23e6-4d05-bfa3-7fb6a80ee568/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/0a9664c3-3352-4110-8bd7-9d587654f9ac/",
             "owner": "gpelouze",
             "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/0a9664c3-3352-4110-8bd7-9d587654f9ac/"
+              }
+            ],
             "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.8",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.8"
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.10",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.10"
             },
             "dependencies": [
               {
@@ -66,11 +74,14 @@
             "secrets": [],
             "title": "ex3-1-create-file-gpelouze",
             "description": "ex3-1-create-file-gpelouze",
-            "created": "2025-06-13T09:09:07.733390Z",
-            "modified": "2025-06-14T09:03:06.454156Z",
+            "created": "2026-07-02T14:25:34.178268Z",
+            "modified": "2026-07-02T14:25:34.435469Z",
+            "version": 1,
+            "template_format": "v1",
             "container_image": "ghcr.io/naavre/cells-vl-openlab/ex3-1-create-file-gpelouze:584e01c",
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/78a03caba4a20ffcee0e90314253b2ac305089d9/ex3-1-create-file-gpelouze"
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/aa66cac4ec8d220a10c43b41f88853e0457fdd8c/ex3-1-create-file-gpelouze",
+            "is_draft": false
           }
         },
         "size": {
@@ -78,8 +89,8 @@
           "height": 152
         }
       },
-      "bab851a7-b32b-46c9-b20e-a740b3d0f62f": {
-        "id": "bab851a7-b32b-46c9-b20e-a740b3d0f62f",
+      "376752d6-6c11-47bf-a6d4-c57aec6155d4": {
+        "id": "376752d6-6c11-47bf-a6d4-c57aec6155d4",
         "position": {
           "x": 862.1621815692068,
           "y": 622.4006359300478
@@ -114,12 +125,20 @@
         },
         "properties": {
           "cell": {
-            "url": "https://new.demo.naavre.net/naavre-catalogue-service/workflow-cells/c3ff7295-8cec-46d0-8fb3-089feac80b3c/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/d7a7642e-2213-4ff9-aa67-911356906fd4/",
             "owner": "gpelouze",
             "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/d7a7642e-2213-4ff9-aa67-911356906fd4/"
+              }
+            ],
             "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.8",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.8"
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.10",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.10"
             },
             "dependencies": [
               {
@@ -160,11 +179,14 @@
             "secrets": [],
             "title": "ex3-2-plot-file-gpelouze",
             "description": "ex3-2-plot-file-gpelouze",
-            "created": "2025-06-14T08:44:28.108877Z",
-            "modified": "2025-06-14T08:59:06.220239Z",
+            "created": "2026-07-02T14:26:40.479313Z",
+            "modified": "2026-07-02T14:26:41.177271Z",
+            "version": 1,
+            "template_format": "v1",
             "container_image": "ghcr.io/naavre/cells-vl-openlab/ex3-2-plot-file-gpelouze:7c5773a",
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/78de5f295802a49ad9a5484fce5d82ff0284c7dc/ex3-2-plot-file-gpelouze"
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/8a70d7b869b10879fca677fff04d4fbca348aec4/ex3-2-plot-file-gpelouze",
+            "is_draft": false
           }
         },
         "size": {
@@ -172,8 +194,8 @@
           "height": 152
         }
       },
-      "7d2ab2b8-5bc2-4b13-b922-0fe48fc793cb": {
-        "id": "7d2ab2b8-5bc2-4b13-b922-0fe48fc793cb",
+      "f1b23ed6-e915-4921-89dc-4f548c6bd5a2": {
+        "id": "f1b23ed6-e915-4921-89dc-4f548c6bd5a2",
         "position": {
           "x": 1170.5882547011636,
           "y": 620.8108108108091
@@ -196,17 +218,30 @@
         },
         "properties": {
           "cell": {
-            "url": "https://new.demo.naavre.net/naavre-catalogue-service/workflow-cells/e58ceea6-cb1f-47bd-886d-c8d5514708fd/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/6300ea7d-4233-42e9-b4be-4d2e51b9fa7b/",
             "owner": "gpelouze",
             "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/6300ea7d-4233-42e9-b4be-4d2e51b9fa7b/"
+              }
+            ],
             "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.8",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.8"
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.10",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.10"
             },
             "dependencies": [
               {
-                "name": "Minio",
-                "module": "minio",
+                "name": "shutil",
+                "module": "",
+                "asname": null
+              },
+              {
+                "name": "os",
+                "module": "",
                 "asname": null
               }
             ],
@@ -217,41 +252,24 @@
               }
             ],
             "outputs": [],
-            "confs": [],
-            "params": [
+            "confs": [
               {
-                "name": "param_minio_bucket",
-                "type": "str",
-                "default_value": "naa-vre-user-data"
-              },
-              {
-                "name": "param_minio_endpoint",
-                "type": "str",
-                "default_value": "scruffy.lab.uvalight.net:9000"
-              },
-              {
-                "name": "param_minio_user_prefix",
-                "type": "str",
-                "default_value": ""
+                "name": "conf_cloud_storage_path",
+                "assignation": "conf_cloud_storage_path = '/home/jovyan/Cloud Storage/naa-vre-user-data/'"
               }
             ],
-            "secrets": [
-              {
-                "name": "secret_minio_access_key",
-                "type": "str"
-              },
-              {
-                "name": "secret_minio_secret_key",
-                "type": "str"
-              }
-            ],
+            "params": [],
+            "secrets": [],
             "title": "ex3-3-upload-file-gpelouze",
             "description": "ex3-3-upload-file-gpelouze",
-            "created": "2025-06-14T08:42:14.781409Z",
-            "modified": "2025-06-14T08:42:15.859548Z",
-            "container_image": "ghcr.io/naavre/cells-vl-openlab/ex3-3-upload-file-gpelouze:4e2a509",
+            "created": "2026-07-02T14:22:27.801433Z",
+            "modified": "2026-07-02T14:22:28.055977Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-openlab/ex3-3-upload-file-gpelouze:044b43a",
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/7ab8af3dfc2c0c11f3106086866dafb2c514aad2/ex3-3-upload-file-gpelouze"
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/5473df8a366b60dc0074b093bf095f682c42e0a2/ex3-3-upload-file-gpelouze",
+            "is_draft": false
           }
         },
         "size": {
@@ -261,30 +279,36 @@
       }
     },
     "links": {
-      "1464ab6b-1eed-4331-ba75-d50e87640d7b": {
-        "id": "1464ab6b-1eed-4331-ba75-d50e87640d7b",
+      "1894ce48-7e4b-43be-8ead-b999e49425cb": {
+        "id": "1894ce48-7e4b-43be-8ead-b999e49425cb",
         "from": {
-          "nodeId": "1ba824e1-42ad-404a-8d70-ff5d31108ea4",
+          "nodeId": "f54e127d-2cbb-4c9f-8b9d-f647f1e7e082",
           "portId": "data_file"
         },
         "to": {
-          "nodeId": "bab851a7-b32b-46c9-b20e-a740b3d0f62f",
+          "nodeId": "376752d6-6c11-47bf-a6d4-c57aec6155d4",
           "portId": "data_file"
         }
       },
-      "47f275be-a6dd-4684-9d0b-96bd77fc22e6": {
-        "id": "47f275be-a6dd-4684-9d0b-96bd77fc22e6",
+      "67c75bee-87f6-4835-9e7b-3015d72fece7": {
+        "id": "67c75bee-87f6-4835-9e7b-3015d72fece7",
         "from": {
-          "nodeId": "bab851a7-b32b-46c9-b20e-a740b3d0f62f",
+          "nodeId": "376752d6-6c11-47bf-a6d4-c57aec6155d4",
           "portId": "figure_file"
         },
         "to": {
-          "nodeId": "7d2ab2b8-5bc2-4b13-b922-0fe48fc793cb",
+          "nodeId": "f1b23ed6-e915-4921-89dc-4f548c6bd5a2",
           "portId": "figure_file"
         }
       }
     },
     "selected": {},
-    "hovered": {}
+    "hovered": {},
+    "metadata": {
+      "version": "1.1"
+    },
+    "properties": {
+      "params": []
+    }
   }
 }
