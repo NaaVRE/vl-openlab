@@ -6,8 +6,8 @@
     },
     "scale": 0.755,
     "nodes": {
-      "3ca615ee-2e4d-4802-be5c-7369ccc8b798": {
-        "id": "3ca615ee-2e4d-4802-be5c-7369ccc8b798",
+      "4125d6bb-250d-450e-aee4-e6e78249348b": {
+        "id": "4125d6bb-250d-450e-aee4-e6e78249348b",
         "position": {
           "x": 714,
           "y": 300
@@ -42,10 +42,19 @@
         },
         "properties": {
           "cell": {
-            "id": "splitter",
+            "url": "splitter",
             "title": "Splitter",
+            "description": "Split the input list and distribute its items to multiple containers that run in parallel.",
             "type": "splitter",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "version": 1,
+            "versions": [],
             "container_image": "",
+            "base_container_image": {
+              "build": "",
+              "runtime": ""
+            },
             "dependencies": [],
             "inputs": [
               {
@@ -60,7 +69,13 @@
               }
             ],
             "confs": [],
-            "params": [],
+            "params": [
+              {
+                "name": "param_max_branches",
+                "type": "int",
+                "default_value": ""
+              }
+            ],
             "secrets": []
           }
         },
@@ -69,8 +84,8 @@
           "height": 102
         }
       },
-      "42b2ba54-7ed5-4450-9736-09065c52b40a": {
-        "id": "42b2ba54-7ed5-4450-9736-09065c52b40a",
+      "98b1e41f-b19e-488f-8fc4-7df9f1ce1bdb": {
+        "id": "98b1e41f-b19e-488f-8fc4-7df9f1ce1bdb",
         "position": {
           "x": 1251,
           "y": 301
@@ -105,10 +120,19 @@
         },
         "properties": {
           "cell": {
-            "id": "merger",
+            "url": "merger",
             "title": "Merger",
+            "description": "Merge the output of multiple containers back into a single list.",
             "type": "merger",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "version": 1,
+            "versions": [],
             "container_image": "",
+            "base_container_image": {
+              "build": "",
+              "runtime": ""
+            },
             "dependencies": [],
             "inputs": [
               {
@@ -132,8 +156,8 @@
           "height": 102
         }
       },
-      "d98bb2ff-d4c7-41e8-ac6a-c74156ff0e3e": {
-        "id": "d98bb2ff-d4c7-41e8-ac6a-c74156ff0e3e",
+      "81d3f70b-b2b3-48a8-8d51-da4ec3c62c6c": {
+        "id": "81d3f70b-b2b3-48a8-8d51-da4ec3c62c6c",
         "position": {
           "x": 413.6556453073263,
           "y": 284.41059602649005
@@ -156,12 +180,20 @@
         },
         "properties": {
           "cell": {
-            "url": "https://new.demo.naavre.net/naavre-catalogue-service/workflow-cells/983daaea-e1ce-46ed-83c7-0eed9e7343cf/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/27f03907-f73e-4857-a6cc-8eaf893850aa/",
             "owner": "gpelouze",
             "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/27f03907-f73e-4857-a6cc-8eaf893850aa/"
+              }
+            ],
             "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.8",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.8"
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.10",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.10"
             },
             "dependencies": [],
             "inputs": [],
@@ -176,11 +208,14 @@
             "secrets": [],
             "title": "ex2-1-input-list-gpelouze",
             "description": "ex2-1-input-list-gpelouze",
-            "created": "2025-06-14T08:39:58.522619Z",
-            "modified": "2025-06-14T08:39:58.640096Z",
+            "created": "2026-07-02T14:22:24.157316Z",
+            "modified": "2026-07-02T14:22:24.564201Z",
+            "version": 1,
+            "template_format": "v1",
             "container_image": "ghcr.io/naavre/cells-vl-openlab/ex2-1-input-list-gpelouze:307c95c",
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/aebd742b51730913dcabbe82a552e7c29ccfced8/ex2-1-input-list-gpelouze"
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/b098712e5e19d2bd44f7a1ea88b5152fcd3080f8/ex2-1-input-list-gpelouze",
+            "is_draft": false
           }
         },
         "size": {
@@ -188,8 +223,8 @@
           "height": 152
         }
       },
-      "a3c6dc7c-7c58-440f-9b9d-107f860a5cc6": {
-        "id": "a3c6dc7c-7c58-440f-9b9d-107f860a5cc6",
+      "f4e126b0-5f96-4654-ba42-463c5f4cdb30": {
+        "id": "f4e126b0-5f96-4654-ba42-463c5f4cdb30",
         "position": {
           "x": 958.0265062344781,
           "y": 284.41059602649005
@@ -224,12 +259,20 @@
         },
         "properties": {
           "cell": {
-            "url": "https://new.demo.naavre.net/naavre-catalogue-service/workflow-cells/2648e8b3-91fd-45de-a093-e0d556ed7187/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/f5fdc2fb-f32c-45db-918d-ec8c6a3c5253/",
             "owner": "gpelouze",
             "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/f5fdc2fb-f32c-45db-918d-ec8c6a3c5253/"
+              }
+            ],
             "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.8",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.8"
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.10",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.10"
             },
             "dependencies": [],
             "inputs": [
@@ -249,11 +292,14 @@
             "secrets": [],
             "title": "ex2-2-process-list-gpelouze",
             "description": "ex2-2-process-list-gpelouze",
-            "created": "2025-06-14T08:40:03.201933Z",
-            "modified": "2025-06-14T08:40:03.325639Z",
+            "created": "2026-07-02T14:21:48.168931Z",
+            "modified": "2026-07-02T14:21:48.472088Z",
+            "version": 1,
+            "template_format": "v1",
             "container_image": "ghcr.io/naavre/cells-vl-openlab/ex2-2-process-list-gpelouze:f1908e1",
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/9950afaa8aeb9c331f78a4ace093c1d6c746ea9f/ex2-2-process-list-gpelouze"
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/86bfb20e22531c1bb32afb86c2fb4f7595d3102d/ex2-2-process-list-gpelouze",
+            "is_draft": false
           }
         },
         "size": {
@@ -261,8 +307,8 @@
           "height": 152
         }
       },
-      "f9ad8ca9-2125-4f6f-a1a1-0545657d35d4": {
-        "id": "f9ad8ca9-2125-4f6f-a1a1-0545657d35d4",
+      "a322e2c6-7183-43ee-abcf-9880bb1895d5": {
+        "id": "a322e2c6-7183-43ee-abcf-9880bb1895d5",
         "position": {
           "x": 1497.0993539165986,
           "y": 284.41059602649
@@ -285,12 +331,20 @@
         },
         "properties": {
           "cell": {
-            "url": "https://new.demo.naavre.net/naavre-catalogue-service/workflow-cells/466af6f1-5c72-4b15-b2d4-e1bd799b5b8f/",
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/30a3027e-1487-4cc0-b8b0-2763347d6761/",
             "owner": "gpelouze",
             "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/30a3027e-1487-4cc0-b8b0-2763347d6761/"
+              }
+            ],
             "base_container_image": {
-              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.0.8",
-              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.0.8"
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.10",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.10"
             },
             "dependencies": [],
             "inputs": [
@@ -305,11 +359,14 @@
             "secrets": [],
             "title": "ex2-3-print-list-gpelouze",
             "description": "ex2-3-print-list-gpelouze",
-            "created": "2025-06-14T08:40:09.084384Z",
-            "modified": "2025-06-14T08:40:09.214939Z",
+            "created": "2026-07-02T14:26:42.981246Z",
+            "modified": "2026-07-02T14:26:43.360204Z",
+            "version": 1,
+            "template_format": "v1",
             "container_image": "ghcr.io/naavre/cells-vl-openlab/ex2-3-print-list-gpelouze:ec860f7",
             "kernel": "ipython",
-            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/7104dab34c0101dec522f19d374b7aaf24dfcc38/ex2-3-print-list-gpelouze"
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/f410387e9a3a2b66134a38fb90324906225cade8/ex2-3-print-list-gpelouze",
+            "is_draft": false
           }
         },
         "size": {
@@ -319,52 +376,61 @@
       }
     },
     "links": {
-      "9f3e9df3-9484-4cbe-9c6a-154bc8882e0c": {
-        "id": "9f3e9df3-9484-4cbe-9c6a-154bc8882e0c",
+      "82f8e4a2-129b-4384-b642-4e77da98b2b8": {
+        "id": "82f8e4a2-129b-4384-b642-4e77da98b2b8",
         "from": {
-          "nodeId": "d98bb2ff-d4c7-41e8-ac6a-c74156ff0e3e",
+          "nodeId": "81d3f70b-b2b3-48a8-8d51-da4ec3c62c6c",
           "portId": "names"
         },
         "to": {
-          "nodeId": "3ca615ee-2e4d-4802-be5c-7369ccc8b798",
+          "nodeId": "4125d6bb-250d-450e-aee4-e6e78249348b",
           "portId": "splitter_source"
         }
       },
-      "ef0371b8-745a-40c8-9112-08bbeebcd60a": {
-        "id": "ef0371b8-745a-40c8-9112-08bbeebcd60a",
+      "6239aa7c-dd48-4146-b5c2-0f6f0f362d06": {
+        "id": "6239aa7c-dd48-4146-b5c2-0f6f0f362d06",
         "from": {
-          "nodeId": "3ca615ee-2e4d-4802-be5c-7369ccc8b798",
+          "nodeId": "4125d6bb-250d-450e-aee4-e6e78249348b",
           "portId": "splitter_target"
         },
         "to": {
-          "nodeId": "a3c6dc7c-7c58-440f-9b9d-107f860a5cc6",
+          "nodeId": "f4e126b0-5f96-4654-ba42-463c5f4cdb30",
           "portId": "names"
         }
       },
-      "475169ff-bb40-45dc-b7fc-7b27e49eac6a": {
-        "id": "475169ff-bb40-45dc-b7fc-7b27e49eac6a",
+      "bb4c8028-73a2-4662-9876-2cf18bb66aa3": {
+        "id": "bb4c8028-73a2-4662-9876-2cf18bb66aa3",
         "from": {
-          "nodeId": "a3c6dc7c-7c58-440f-9b9d-107f860a5cc6",
+          "nodeId": "f4e126b0-5f96-4654-ba42-463c5f4cdb30",
           "portId": "sentences"
         },
         "to": {
-          "nodeId": "42b2ba54-7ed5-4450-9736-09065c52b40a",
+          "nodeId": "98b1e41f-b19e-488f-8fc4-7df9f1ce1bdb",
           "portId": "merger_source"
         }
       },
-      "79410b2b-c769-4030-b681-e8e70cf3c38f": {
-        "id": "79410b2b-c769-4030-b681-e8e70cf3c38f",
+      "50f2dfdf-1746-4d32-b530-616262e242a1": {
+        "id": "50f2dfdf-1746-4d32-b530-616262e242a1",
         "from": {
-          "nodeId": "42b2ba54-7ed5-4450-9736-09065c52b40a",
+          "nodeId": "98b1e41f-b19e-488f-8fc4-7df9f1ce1bdb",
           "portId": "merger_target"
         },
         "to": {
-          "nodeId": "f9ad8ca9-2125-4f6f-a1a1-0545657d35d4",
+          "nodeId": "a322e2c6-7183-43ee-abcf-9880bb1895d5",
           "portId": "sentences"
         }
       }
     },
     "selected": {},
-    "hovered": {}
+    "hovered": {
+      "type": "node",
+      "id": "f9ad8ca9-2125-4f6f-a1a1-0545657d35d4"
+    },
+    "metadata": {
+      "version": "1.1"
+    },
+    "properties": {
+      "params": []
+    }
   }
 }
