@@ -24,7 +24,7 @@
             },
             "position": {
               "x": -2,
-              "y": 50
+              "y": 30
             }
           },
           "splitter_target": {
@@ -36,7 +36,7 @@
             },
             "position": {
               "x": 202,
-              "y": 50
+              "y": 30
             }
           }
         },
@@ -81,7 +81,7 @@
         },
         "size": {
           "width": 202,
-          "height": 102
+          "height": 61
         }
       },
       "98b1e41f-b19e-488f-8fc4-7df9f1ce1bdb": {
@@ -102,7 +102,7 @@
             },
             "position": {
               "x": -2,
-              "y": 50
+              "y": 30
             }
           },
           "merger_target": {
@@ -114,7 +114,7 @@
             },
             "position": {
               "x": 202,
-              "y": 50
+              "y": 30
             }
           }
         },
@@ -153,7 +153,7 @@
         },
         "size": {
           "width": 202,
-          "height": 102
+          "height": 61
         }
       },
       "81d3f70b-b2b3-48a8-8d51-da4ec3c62c6c": {
@@ -173,8 +173,8 @@
               "parentNodeType": "workflow-cell"
             },
             "position": {
-              "x": 226.5,
-              "y": 75
+              "x": 252,
+              "y": 30
             }
           }
         },
@@ -220,7 +220,7 @@
         },
         "size": {
           "width": 252,
-          "height": 152
+          "height": 61
         }
       },
       "f4e126b0-5f96-4654-ba42-463c5f4cdb30": {
@@ -240,8 +240,8 @@
               "parentNodeType": "workflow-cell"
             },
             "position": {
-              "x": 23.5,
-              "y": 75
+              "x": -2,
+              "y": 30
             }
           },
           "sentences": {
@@ -252,8 +252,8 @@
               "parentNodeType": "workflow-cell"
             },
             "position": {
-              "x": 215.5,
-              "y": 75
+              "x": 252,
+              "y": 30
             }
           }
         },
@@ -304,7 +304,7 @@
         },
         "size": {
           "width": 252,
-          "height": 152
+          "height": 61
         }
       },
       "a322e2c6-7183-43ee-abcf-9880bb1895d5": {
@@ -324,8 +324,8 @@
               "parentNodeType": "workflow-cell"
             },
             "position": {
-              "x": 34.5,
-              "y": 75
+              "x": -2,
+              "y": 30
             }
           }
         },
@@ -371,7 +371,7 @@
         },
         "size": {
           "width": 252,
-          "height": 152
+          "height": 61
         }
       }
     },
@@ -421,16 +421,25 @@
         }
       }
     },
-    "selected": {},
+    "selected": {
+      "type": "node",
+      "id": "4125d6bb-250d-450e-aee4-e6e78249348b"
+    },
     "hovered": {
       "type": "node",
-      "id": "f9ad8ca9-2125-4f6f-a1a1-0545657d35d4"
+      "id": "4125d6bb-250d-450e-aee4-e6e78249348b"
     },
     "metadata": {
       "version": "1.1"
     },
     "properties": {
-      "params": []
+      "params": [
+        {
+          "node_id": "4125d6bb-250d-450e-aee4-e6e78249348b",
+          "name": "param_max_branches",
+          "value": "4"
+        }
+      ]
     }
   }
 }
