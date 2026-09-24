@@ -1,0 +1,498 @@
+{
+  "chart": {
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "scale": 1,
+    "nodes": {
+      "8d05fa20-11a1-4e12-b555-7d4688c13594": {
+        "id": "8d05fa20-11a1-4e12-b555-7d4688c13594",
+        "position": {
+          "x": 1364.3333129882812,
+          "y": 292
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "sentences": {
+            "id": "sentences",
+            "type": "left",
+            "properties": {
+              "color": "#86412d",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/86d0ed4d-11f5-4124-baa9-87ed1b4aa5ed/",
+            "owner": "koen.greuell@lifewatch.eu",
+            "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/86d0ed4d-11f5-4124-baa9-87ed1b4aa5ed/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.21",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.21"
+            },
+            "containerization_job": {
+              "html_url": "https://github.com/NaaVRE/cells-vl-openlab/actions/runs/36000158960/job/107634616456",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            "dependencies": [],
+            "inputs": [
+              {
+                "name": "sentences",
+                "type": "list"
+              }
+            ],
+            "outputs": [],
+            "confs": [],
+            "params": [],
+            "secrets": [],
+            "title": "ex2-4-print-list-koen-greuell-lifewatch-eu",
+            "description": "ex2-4-print-list-koen-greuell-lifewatch-eu",
+            "created": "2026-09-24T12:36:51.825852Z",
+            "modified": "2026-09-24T12:38:49.955858Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-openlab/ex2-4-print-list-koen-greuell-lifewatch-eu:ec860f7",
+            "containerization_workflow_id": "6d42c58a-95da-452b-8c30-b00ff3092bf5",
+            "kernel": "ipython",
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/2bcccdb49236b2501ddb097b1268772de54fdfa9/ex2-4-print-list-koen-greuell-lifewatch-eu",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "f55a512a-2eee-45d1-a646-5e257622d016": {
+        "id": "f55a512a-2eee-45d1-a646-5e257622d016",
+        "position": {
+          "x": 1038.3333129882812,
+          "y": 284
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "list_length": {
+            "id": "list_length",
+            "type": "left",
+            "properties": {
+              "color": "#2d5586",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 17
+            }
+          },
+          "names": {
+            "id": "names",
+            "type": "left",
+            "properties": {
+              "color": "#2dd2ca",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 43
+            }
+          },
+          "sentences": {
+            "id": "sentences",
+            "type": "right",
+            "properties": {
+              "color": "#86412d",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/8c62ebe6-105b-405d-b7af-dab0cb586c46/",
+            "owner": "koen.greuell@lifewatch.eu",
+            "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/8c62ebe6-105b-405d-b7af-dab0cb586c46/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.21",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.21"
+            },
+            "containerization_job": {
+              "html_url": "https://github.com/NaaVRE/cells-vl-openlab/actions/runs/36000149623/job/107634583408",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            "dependencies": [],
+            "inputs": [
+              {
+                "name": "list_length",
+                "type": "int"
+              },
+              {
+                "name": "names",
+                "type": "list"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "sentences",
+                "type": "list"
+              }
+            ],
+            "confs": [],
+            "params": [],
+            "secrets": [],
+            "title": "ex2-3-process-list-koen-greuell-lifewatch-eu",
+            "description": "ex2-3-process-list-koen-greuell-lifewatch-eu",
+            "created": "2026-09-24T12:36:46.435171Z",
+            "modified": "2026-09-24T12:38:45.670451Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-openlab/ex2-3-process-list-koen-greuell-lifewatch-eu:4f9b232",
+            "containerization_workflow_id": "0f58947a-0dd2-4f60-8bd9-18482a1dae03",
+            "kernel": "ipython",
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/44c666342a84d60bd9ce49697addffdcfeac739f/ex2-3-process-list-koen-greuell-lifewatch-eu",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "fc0abd76-e294-42b7-99c1-5cb629e21742": {
+        "id": "fc0abd76-e294-42b7-99c1-5cb629e21742",
+        "position": {
+          "x": 728.3333129882812,
+          "y": 120
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "names": {
+            "id": "names",
+            "type": "left",
+            "properties": {
+              "color": "#2dd2ca",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 30
+            }
+          },
+          "list_length": {
+            "id": "list_length",
+            "type": "right",
+            "properties": {
+              "color": "#2d5586",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/7709c3a4-08a6-405b-9c38-b869db23f698/",
+            "owner": "koen.greuell@lifewatch.eu",
+            "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/7709c3a4-08a6-405b-9c38-b869db23f698/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.21",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.21"
+            },
+            "containerization_job": {
+              "html_url": "https://github.com/NaaVRE/cells-vl-openlab/actions/runs/36000138654/job/107634538684",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            "dependencies": [],
+            "inputs": [
+              {
+                "name": "names",
+                "type": "list"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "list_length",
+                "type": "int"
+              }
+            ],
+            "confs": [],
+            "params": [],
+            "secrets": [],
+            "title": "ex2-2-get-list-length-koen-greuell-lifewatch-eu",
+            "description": "ex2-2-get-list-length-koen-greuell-lifewatch-eu",
+            "created": "2026-09-24T12:36:39.933750Z",
+            "modified": "2026-09-24T12:38:57.747352Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-openlab/ex2-2-get-list-length-koen-greuell-lifewatch-eu:74ac17d",
+            "containerization_workflow_id": "b7a7d8b5-06a1-44f4-b2a7-5d70c787fb3b",
+            "kernel": "ipython",
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/11eb204e4805423b70e0c868a5eae2b20542eff5/ex2-2-get-list-length-koen-greuell-lifewatch-eu",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "3b523be6-549a-4a26-8320-0079ba8ac7bd": {
+        "id": "3b523be6-549a-4a26-8320-0079ba8ac7bd",
+        "position": {
+          "x": 372.33331298828125,
+          "y": 126
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "names": {
+            "id": "names",
+            "type": "right",
+            "properties": {
+              "color": "#2dd2ca",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/fb524c5b-ca72-4a37-9711-284e1754ba3e/",
+            "owner": "koen.greuell@lifewatch.eu",
+            "virtual_lab": "openlab",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/fb524c5b-ca72-4a37-9711-284e1754ba3e/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-build:v0.3.13",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-vanilla-cell-runtime:v0.3.13"
+            },
+            "containerization_job": null,
+            "dependencies": [],
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "names",
+                "type": "list"
+              }
+            ],
+            "confs": [],
+            "params": [],
+            "secrets": [],
+            "title": "ex2-1-input-list-koen-greuell-lifewatch-eu",
+            "description": "ex2-1-input-list-koen-greuell-lifewatch-eu",
+            "created": "2026-07-31T12:06:48.845285Z",
+            "modified": "2026-07-31T12:06:49.022177Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-openlab/ex2-1-input-list-koen-greuell-lifewatch-eu:3d31fd9",
+            "containerization_workflow_id": null,
+            "kernel": "ipython",
+            "source_url": "https://github.com/NaaVRE/cells-vl-openlab/tree/61699e214b674e35d8b45c78a8af6264bde8dba2/ex2-1-input-list-koen-greuell-lifewatch-eu",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "aae406ad-c20b-466b-8869-b3a7416a669b": {
+        "id": "aae406ad-c20b-466b-8869-b3a7416a669b",
+        "position": {
+          "x": 747.3333129882812,
+          "y": 289
+        },
+        "orientation": 0,
+        "type": "splitter",
+        "ports": {
+          "splitter_source": {
+            "id": "splitter_source",
+            "type": "left",
+            "properties": {
+              "color": "#86642d",
+              "parentNodeType": "splitter"
+            },
+            "position": {
+              "x": -2,
+              "y": 30
+            }
+          },
+          "splitter_target": {
+            "id": "splitter_target",
+            "type": "right",
+            "properties": {
+              "color": "#5940bf",
+              "parentNodeType": "splitter"
+            },
+            "position": {
+              "x": 202,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "splitter",
+            "title": "Splitter",
+            "description": "Split the input list and distribute its items to multiple containers that run in parallel.",
+            "type": "splitter",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "version": 1,
+            "versions": [],
+            "container_image": "",
+            "base_container_image": {
+              "build": "",
+              "runtime": ""
+            },
+            "dependencies": [],
+            "inputs": [
+              {
+                "name": "splitter_source",
+                "type": "list"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "splitter_target",
+                "type": "list"
+              }
+            ],
+            "confs": [],
+            "params": [
+              {
+                "name": "param_max_branches",
+                "type": "int",
+                "default_value": ""
+              }
+            ],
+            "secrets": []
+          }
+        },
+        "size": {
+          "width": 202,
+          "height": 61
+        }
+      }
+    },
+    "links": {
+      "eb74dfcc-e311-4da5-95bc-645dd161d1b0": {
+        "id": "eb74dfcc-e311-4da5-95bc-645dd161d1b0",
+        "from": {
+          "nodeId": "f55a512a-2eee-45d1-a646-5e257622d016",
+          "portId": "sentences"
+        },
+        "to": {
+          "nodeId": "8d05fa20-11a1-4e12-b555-7d4688c13594",
+          "portId": "sentences"
+        }
+      },
+      "8d73075a-bb58-4bd5-9d5f-8df729eb7ed8": {
+        "id": "8d73075a-bb58-4bd5-9d5f-8df729eb7ed8",
+        "from": {
+          "nodeId": "fc0abd76-e294-42b7-99c1-5cb629e21742",
+          "portId": "list_length"
+        },
+        "to": {
+          "nodeId": "f55a512a-2eee-45d1-a646-5e257622d016",
+          "portId": "list_length"
+        }
+      },
+      "4a97efd3-4734-47b9-9841-a1d20d96ad1c": {
+        "id": "4a97efd3-4734-47b9-9841-a1d20d96ad1c",
+        "from": {
+          "nodeId": "3b523be6-549a-4a26-8320-0079ba8ac7bd",
+          "portId": "names"
+        },
+        "to": {
+          "nodeId": "fc0abd76-e294-42b7-99c1-5cb629e21742",
+          "portId": "names"
+        }
+      },
+      "be7dabce-6e82-4f49-b7d9-2049d843739d": {
+        "id": "be7dabce-6e82-4f49-b7d9-2049d843739d",
+        "from": {
+          "nodeId": "3b523be6-549a-4a26-8320-0079ba8ac7bd",
+          "portId": "names"
+        },
+        "to": {
+          "nodeId": "aae406ad-c20b-466b-8869-b3a7416a669b",
+          "portId": "splitter_source"
+        }
+      },
+      "b0b7b953-f959-4bbc-94de-fa2346cce947": {
+        "id": "b0b7b953-f959-4bbc-94de-fa2346cce947",
+        "from": {
+          "nodeId": "aae406ad-c20b-466b-8869-b3a7416a669b",
+          "portId": "splitter_target"
+        },
+        "to": {
+          "nodeId": "f55a512a-2eee-45d1-a646-5e257622d016",
+          "portId": "names"
+        }
+      }
+    },
+    "properties": {
+      "params": [
+        {
+          "node_id": "aae406ad-c20b-466b-8869-b3a7416a669b",
+          "name": "param_max_branches",
+          "value": "4"
+        }
+      ]
+    },
+    "selected": {},
+    "hovered": {
+      "type": "node",
+      "id": "aae406ad-c20b-466b-8869-b3a7416a669b"
+    }
+  }
+}

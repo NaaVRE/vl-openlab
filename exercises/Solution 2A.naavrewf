@@ -425,10 +425,7 @@
       "type": "node",
       "id": "4125d6bb-250d-450e-aee4-e6e78249348b"
     },
-    "hovered": {
-      "type": "node",
-      "id": "4125d6bb-250d-450e-aee4-e6e78249348b"
-    },
+    "hovered": {},
     "metadata": {
       "version": "1.1"
     },
