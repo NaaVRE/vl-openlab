@@ -1,7 +1,9 @@
-Welcome to NaaVRE's open lab!
+Welcome to NaaVRE's open lab! This lab allows you to explore the platform and discover whether it is suitable for your research needs. <br/>
 
 ### Documentation
 If you don't know where to start, we recommend to begin with the [NaaVRE tutorial](https://naavre.net/docs/tutorials/). <br/>
-You can also try out the exercises to learn how to [use params and secrets](./exercises/Exercise%201%20params%20and%20secrets.ipynb), [split and merge](./exercises/Exercise%202%20split%20and%20merge.ipynb) or [manage files](./exercises/Exercise%203%20file%20management.ipynb). <br/>
-The `examples` folder contains notebooks on how to use some more complex features in NaaVRE. <br/>
-For a comprehensive guide to advanced features, please refer to our [detailed documentation](docs/NaaVRE_documentation).
+The [NaaVRE website](https://naavre.net) additionally contains further documentation on how to use the platform. <br/>
+You can also take a look at the other training materials available through the file browser: <br/>
+
+![./images/Training_materials_in_file_browser.png](./images/Training_materials_in_file_browser.png) 
+
