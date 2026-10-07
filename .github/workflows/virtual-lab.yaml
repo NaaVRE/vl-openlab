@@ -1,7 +1,10 @@
 name: Build, test and publish Virtual Lab
 on:
   push:
+    branches:
+      - '**'
   release:
+    types: [published]
 
 permissions:
   packages: write
@@ -17,3 +20,4 @@ jobs:
       - uses: NaaVRE/virtual-lab-action@main
         with:
           registry_password: ${{ secrets.GITHUB_TOKEN }}
+          naavre_build_token: ${{ secrets.NAAVRE_BUILD_TOKEN }}
