@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - '**'
+  pull_request:
+    types: [opened, reopened]
   release:
     types: [published]
 
@@ -18,7 +20,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - uses: NaaVRE/virtual-lab-action@set-latest-tag-on-release
+      - uses: NaaVRE/virtual-lab-action@show-binder-link-on-pr-open
         with:
           registry_password: ${{ secrets.GITHUB_TOKEN }}
           naavre_build_token: ${{ secrets.NAAVRE_BUILD_TOKEN }}
